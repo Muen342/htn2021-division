@@ -3,6 +3,7 @@
 	"name": "di/vision",
 	"version": "0.1",
 
+
 	"permissions": ["storage", "alarms"],
 
 	"content_scripts": [
@@ -10,10 +11,11 @@
 			"matches": ["http://*/*", "https://*/*"],
 			"js":["content.js"]
 		}],
+
 	"browser_action":{
 		"default_icon":"icon.png",
-		"default_title": "you can also add a tool tip here",
-  		"default_popup": "index.html"
+		"default_title": "Di/Vision"
+  		//"default_popup": "index.html"
 	},
 
 	"background": {

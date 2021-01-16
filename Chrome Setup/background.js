@@ -2,7 +2,7 @@ chrome.browserAction.onClicked.addListener(buttonClicked);
 
 function buttonClicked(tab){
   var msg = {
-    message: "Muen is chinese, I am indian therefore I am better than Muen"
+    message: "user clicked!"
   }
 
   chrome.tabs.sendMessage(tab.id, msg);
