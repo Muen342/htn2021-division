@@ -1,2 +1,2 @@
-@tensorflow-models/face-landmarks-detection@0.0.1
-@tensorflow/tfjs@2.6.0
+yarn add @tensorflow-models/face-landmarks-detection@0.0.1
+yarn add @tensorflow/tfjs@2.6.0
