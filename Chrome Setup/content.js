@@ -1,7 +1,15 @@
 console.log('Whats up hoe');
 
+// Listen for messages
+chrome.runtime.onMessage.addListener(receiver);
 
-let imgs = document.getElementsByTagName('img');
+// Callback for when a message is received
+function receiver(request, sender, sendResponse) {
+  if (request.message === "user clicked!") {
+    // Do something!
+  }
+}
+//let imgs = document.getElementsByTagName('img');
 
 // for (let imgElt of imgs) {
 
